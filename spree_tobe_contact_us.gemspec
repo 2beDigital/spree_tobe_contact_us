@@ -18,7 +18,7 @@ Gem::Specification.new do |s|
   s.requirements << 'none'
 
   s.add_dependency 'spree_core', '>= 2.4.7'
-  s.add_dependency 'spree_mail_settings', '>= 2.4.7'
+  s.add_dependency 'spree_mail_settings'
   s.add_dependency 'spree_bootstrap_frontend', '>= 2.4.0'
   s.add_dependency 'spree_contact_us', '>= 2.2.0'
   s.add_dependency 'recaptcha', '>= 0.4.0'
