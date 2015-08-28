@@ -2,7 +2,7 @@ module SpreeToBeContactUs
   module Generators
     class InstallGenerator < Rails::Generators::Base
 
-      argument :file_name, :type => :string, :desc => 'rails app_path', :default => '.'
+      #argument :file_name, :type => :string, :desc => 'rails app_path', :default => '.'
       source_root File.expand_path('../../templates', __FILE__)
 
       def add_javascripts

@@ -31,7 +31,7 @@ From `Rails.root` run:
     $ bundle
     $ bundle exec rails g spree_contact_us:install
     $ bundle exec rails g spree_bootstrap_frontend:install
-    $ bundle exec rails g spree_tobe_contact_us:install
+    $ bundle exec rails g spree_to_be_contact_us:install
 
 ## CONFIGURATION
 

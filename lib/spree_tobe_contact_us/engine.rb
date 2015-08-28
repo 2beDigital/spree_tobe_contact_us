@@ -1,8 +1,10 @@
 module SpreeToBeContactUs
   class Engine < Rails::Engine
+    #require 'spree/core'
+    #isolate_namespace Spree	
     engine_name 'spree_tobe_contact_us'
 
-    #config.autoload_paths += %W(#{config.root}/lib)
+    config.autoload_paths += %W(#{config.root}/lib)
 
     # use rspec for tests
     config.generators do |g|
