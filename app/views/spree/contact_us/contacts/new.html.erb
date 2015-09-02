@@ -43,13 +43,13 @@
           <span class="input-group-addon">
             <i class="fa fa-user"></i>
           </span>
-          <%= f.text_field :name, class: 'form-control required',:id =>  "name", :placeholder => "Name"  %>
+          <%= f.text_field :name, class: 'form-control required',:id =>  "name", :placeholder => Spree.t(:name)  %>
         </div>
         <div class="col-md-6  input-group pull-right" id="email">
           <span class="input-group-addon">
             <i class="fa fa-envelope"></i>
           </span>
-          <%= f.email_field :email, class: 'form-control required', :id => "email", :placeholder => "Email Address" %>
+          <%= f.email_field :email, class: 'form-control required', :id => "email", :placeholder => t(:email_address) %>
         </div>
       </div>
       <div class="col-md-12 col-xs-12" id="comments">
@@ -57,7 +57,7 @@
               <span class="input-group-addon">
                 <i class="fa fa-pencil"></i>
               </span>
-          <%= f.text_area :message, class: 'form-control required', :rows => "6", :id => "comments_area", :placeholder => "Your question or comment here" %>
+          <%= f.text_area :message, class: 'form-control required', :rows => "6", :id => "comments_area", :placeholder => t(:your_comment_here) %>
         </div>
       </div>
       <div class="col-md-12 col-xs-12">
