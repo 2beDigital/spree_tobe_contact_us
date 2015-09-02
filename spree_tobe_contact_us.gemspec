@@ -21,7 +21,7 @@ Gem::Specification.new do |s|
   s.add_dependency 'spree_mail_settings'
   s.add_dependency 'spree_bootstrap_frontend'
   s.add_dependency 'spree_contact_us', '>= 2.2.0'
-  s.add_dependency 'recaptcha', '>= 0.4.0
+  s.add_dependency 'recaptcha', '>= 0.4.0'
 	s.add_dependency 'font-awesome-rails'
 
   s.add_development_dependency 'capybara', '~> 2.4'
