@@ -20,7 +20,7 @@ In your `Gemfile`, add the following dependencies:
 
 To install from edge:
 
-        gem 'font-awesome-rails', '~> 4.2.0.0'
+		gem 'font-awesome-rails', '~> 4.4.0.0'
 		gem 'spree_mail_settings', :git => 'https://github.com/spree-contrib/spree_mail_settings', :branch => '2-4-stable'
 		gem 'spree_bootstrap_frontend', :git => 'https://github.com/200Creative/spree_bootstrap_frontend', :branch => '2-4-stable'
 		gem 'spree_contact_us', :git => 'https://github.com/spree-contrib/spree_contact_us', :branch => '2-4-stable'
