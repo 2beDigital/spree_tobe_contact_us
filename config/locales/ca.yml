@@ -22,3 +22,8 @@
 ca:
   email_address: "Direcció Mail"
   your_comment_here: "Escrigui el seu comentari aquí"
+  
+  recaptcha:
+    errors:
+      verification_failed: "Human verification fails"
+      recaptcha_unreachable: "Human verification timeout"

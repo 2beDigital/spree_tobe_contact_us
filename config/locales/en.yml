@@ -22,3 +22,8 @@
 en:
   email_address: "Email Address"
   your_comment_here: "Your Comment Here"
+  
+  recaptcha:
+    errors:
+      verification_failed: "Human verification fails"
+      recaptcha_unreachable: "Human verification timeout"

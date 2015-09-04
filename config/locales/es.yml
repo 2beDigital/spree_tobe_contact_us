@@ -22,3 +22,8 @@
 es:
   email_address: "Dirección Mail"
   your_comment_here: "Escriba su comentario aquí"
+  
+  recaptcha:
+    errors:
+      verification_failed: "Human verification fails"
+      recaptcha_unreachable: "Human verification timeout"
