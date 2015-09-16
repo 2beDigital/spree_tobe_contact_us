@@ -34,10 +34,6 @@
   margin-bottom: 10px !important;
 }
 
-input#contact_us_contact_submit{
-  margin-top: 10px;
-}
-
 label.error,
 .alert-recaptcha_error{
     min-width: 100%;
@@ -52,7 +48,8 @@ div#email.input-group{
   width: 49%;
 }
 
-div#comments{
+div#comments,
+input#contact_us_contact_submit{
   margin-top: 10px;
 }
 
