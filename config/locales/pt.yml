@@ -27,3 +27,4 @@ pt:
     errors:
       verification_failed: "Human verification fails"
       recaptcha_unreachable: "Human verification timeout"
+  contact_term_and_cond: "Eu li e aceito os Termos e Condições e Política de Privacidade"

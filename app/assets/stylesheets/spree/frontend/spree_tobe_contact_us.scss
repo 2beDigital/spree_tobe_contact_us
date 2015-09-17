@@ -43,6 +43,11 @@ label.error,
     color: red;
 }
 
+.alert-recaptcha_error{
+  min-width: inherit;
+}
+
+
 div#name.input-group,
 div#email.input-group{
   width: 49%;
