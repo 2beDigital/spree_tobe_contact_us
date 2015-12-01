@@ -58,5 +58,10 @@
         <%= f.submit Spree.t(:submit), :alt => Spree.t(:submit), :class => 'btn btn-primary btn-lg', :id => 'contact_us_contact_submit', :title => Spree.t(:submit) %>
       </div>
   <% end %>
+  <% if I18n.locale != :en %>
+      <% content_for :head do %>
+          <script src="<%= assets_prefix %>/jquery.validate/localization/messages_<%= I18n.locale.to_s.downcase.gsub("-", "") %>.js"></script>
+      <% end %>
+  <% end %>  
 </div>
 
