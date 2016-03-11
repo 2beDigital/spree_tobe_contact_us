@@ -19,12 +19,12 @@
 # To learn more, please read the Rails Internationalization guide
 # available at http://guides.rubyonrails.org/i18n.html.
 
-ca:
-  email_address: "Direcció Mail"
-  your_comment_here: "Escrigui el seu comentari aquí"
+it:
+  email_address: "indirizzo e-mail"
+  your_comment_here: "Qui il tuo commento"
   
   recaptcha:
     errors:
       verification_failed: "Human verification fails"
       recaptcha_unreachable: "Human verification timeout"
-  contact_term_and_cond: "He llegit i accepto els Termes i Condicions i la Política de Privacitat"
+  contact_term_and_cond: "Ho letto e accetto i Termini e Condizioni e Politica sulla Privacy"
