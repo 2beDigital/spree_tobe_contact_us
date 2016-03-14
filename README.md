@@ -4,7 +4,7 @@ A Rails 3+ Engine providing a basic contact form as a Spree Extension.
 Added Recaptcha funcionality to `contact_us` gem to work with Spree.
 
 For more information please see:
-* https://github.com/spree-contrib/contact_us
+* https://github.com/spree-contrib/spree_contact_us
 * https://github.com/ambethia/recaptcha/
 
 ## REQUIREMENTS
