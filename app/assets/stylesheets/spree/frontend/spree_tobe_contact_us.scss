@@ -44,9 +44,6 @@ div#phone.input-group{
   display: inline-table;
 }
 
-div#phone.input-group{
-    margin-left: 5px;
-}
 
 div#comments,
 input#contact_us_contact_submit{
@@ -57,7 +54,7 @@ label#label_contact_term_and_cond{
   margin-left: 20px;
 }
 
-@media (max-width: 750px ) {
+@media (max-width: 815px ) {
   div#name.input-group,
   div#email.input-group,
   div#phone.input-group{
