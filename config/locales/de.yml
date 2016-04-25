@@ -22,7 +22,7 @@
 de:
   email_address: "Kunden E-Mail"
   your_comment_here: "Sie hier Ihren Kommentar"
-  
+  message: "Nachricht"  
   recaptcha:
     errors:
       verification_failed: "Human verification fails"

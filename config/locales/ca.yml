@@ -22,7 +22,7 @@
 ca:
   email_address: "Direcció Mail"
   your_comment_here: "Escrigui el seu comentari aquí"
-  
+  message: "Missatge"
   recaptcha:
     errors:
       verification_failed: "Human verification fails"

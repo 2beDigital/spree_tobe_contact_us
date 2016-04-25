@@ -21,8 +21,8 @@
 
 pt:
   email_address: "Email"
-  your_comment_here: "Seu comentário aqui"
-  
+  your_comment_here: "Seu comentário aqui" 
+  message: "Mensagem"
   recaptcha:
     errors:
       verification_failed: "Human verification fails"

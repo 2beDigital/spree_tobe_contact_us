@@ -22,7 +22,7 @@
 fr:
   email_address: "Email"
   your_comment_here: "Votre commentaire ici"
-  
+  message: "Message"  
   recaptcha:
     errors:
       verification_failed: "Human verification fails"

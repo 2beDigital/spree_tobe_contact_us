@@ -15,17 +15,23 @@
 
   <%= form_for @contact, :url => contacts_path, :html => { :novalidate => '', :class => 'form-horizontal'} do |f| %>
       <div class="col-md-12" id="name_email">
-        <div class="col-md-6 input-group pull-left" id="name">
-          <span class="input-group-addon">
-            <i class="fa fa-user"></i>
+        <div class="col-md-4 input-group" id="name">
+          <span class="input-group-addon" >
+            <i class="fa fa-user" aria-hidden="true"></i>
           </span>
           <%= f.text_field :name, class: 'form-control required',:id =>  "name", :placeholder => Spree.t(:name)  %>
         </div>
-        <div class="col-md-6  input-group pull-right" id="email">
+        <div class="col-md-4  input-group" id="email">
           <span class="input-group-addon">
-            <i class="fa fa-envelope"></i>
+            <i class="fa fa-envelope" aria-hidden="true"></i>
           </span>
           <%= f.email_field :email, class: 'form-control required', :id => "email", :placeholder => t(:email_address) %>
+        </div>
+        <div class="col-md-4 input-group" id="phone">
+          <span class="input-group-addon">
+            <i class="fa fa-phone" aria-hidden="true"></i>
+          </span>
+          <%= f.text_field :phone, class: 'form-control required',:id =>  "phone", :placeholder => Spree.t(:phone)  %>
         </div>
       </div>
       <div class="col-md-12 col-xs-12" id="comments">

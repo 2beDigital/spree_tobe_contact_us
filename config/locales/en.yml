@@ -22,7 +22,7 @@
 en:
   email_address: "Email Address"
   your_comment_here: "Your Comment Here"
-  
+  message: "Message"  
   recaptcha:
     errors:
       verification_failed: "Human verification fails"

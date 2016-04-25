@@ -22,7 +22,7 @@
 it:
   email_address: "indirizzo e-mail"
   your_comment_here: "Qui il tuo commento"
-  
+  message: "Messaggio"
   recaptcha:
     errors:
       verification_failed: "Human verification fails"

@@ -38,8 +38,14 @@ label.error,
 
 
 div#name.input-group,
-div#email.input-group{
-  width: 49%;
+div#email.input-group,
+div#phone.input-group{
+  width: 33%;
+  display: inline-table;
+}
+
+div#phone.input-group{
+    margin-left: 5px;
 }
 
 div#comments,
@@ -53,7 +59,8 @@ label#label_contact_term_and_cond{
 
 @media (max-width: 750px ) {
   div#name.input-group,
-  div#email.input-group{
+  div#email.input-group,
+  div#phone.input-group{
     width: 100%;
     margin-bottom: 5px;
   }
