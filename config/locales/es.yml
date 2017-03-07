@@ -27,4 +27,5 @@ es:
     errors:
       verification_failed: "Human verification fails"
       recaptcha_unreachable: "Human verification timeout"
+      recaptcha_error: "Oh! Ha habido un error con reCAPTCHA!"
   contact_term_and_cond: "He leído y acepto los Términos y condiciones y la Política de privacidad"

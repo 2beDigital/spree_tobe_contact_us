@@ -27,4 +27,5 @@ ca:
     errors:
       verification_failed: "Human verification fails"
       recaptcha_unreachable: "Human verification timeout"
+      recaptcha_error: "Oh! hi ha hagut un error amb reCAPTCHA!"
   contact_term_and_cond: "He llegit i accepto els Termes i Condicions i la Política de Privacitat"
