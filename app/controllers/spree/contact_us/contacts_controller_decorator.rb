@@ -2,7 +2,7 @@ Spree::ContactUs::ContactsController.class_eval do
 
   def create
     @contact = Spree::ContactUs::Contact.new(params[:contact_us_contact])
-		status = verify_recaptcha(:model => @post, :message => Spree.t(:recaptcha.errors.recaptcha_error))
+    status = verify_recaptcha(:model => @post, :message =>  t('recaptcha.errors.recaptcha_error'))
 		#"Oh! It's error with reCAPTCHA!")
 		if status
 			if @contact.save
